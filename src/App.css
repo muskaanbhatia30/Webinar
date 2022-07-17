@@ -1,38 +1,195 @@
-.App {
-  text-align: center;
-}
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+p,h5{
+  font-family: 'Montserrat', sans-serif;
+}
+#info
+{
+  font-size: small;
+}
+body
+{
+  background-color: #F6F6F6;
+  margin: 0;
+}
+.btn 
+{
+  background-color: #6365EF;
   color: white;
+  border-radius: 0rem;
+  padding-left:3rem ;
+  padding-right: 3rem;
+  height: 3rem;
+}
+.btb:hover
+{
+  border-color: #6365EF;
+}
+.card
+{
+  max-width: 18rem;
+  border-radius: 0.4rem;
+}
+.btn:hover
+{
+scroll-behavior: smooth;
+}
+.card-body
+{
+  background-color: #6365EF;
+  color:#ffffff;
+}
+.back-div
+{
+  background-color: #6365EF;
+  border-radius: 0.4rem;
+}
+@media (max-width: 575.98px) { 
+  .header-img
+  {
+     margin-top: 3rem;
+  }
+ 
+}
+@media (max-width: 767.98px) { 
+  .form-l
+  {
+      height: 300px;
+  }
+  .form-r
+  {
+      height: 300px;
+  }
+}
+.container1{
+  width: 200px;
+  height: 200px;
+  position: relative;
+  margin: 20px;
 }
 
-.App-link {
-  color: #61dafb;
+
+.form-r{
+  background-color: #6365EF;
+  height: 600px;
+  overflow-x: hidden;
+  border-radius: 0px 4px 4px 0px;
+}
+.form-l
+{
+  background-color: #ffffff;
+  height: 600px;
+  border-radius: 4px;
+  overflow-x: hidden;
+}
+h3
+{
+  margin-top: 7rem;
+  color: #6365EF;
+}
+.form-control
+{
+  border-color: #6365EF;
+  color:#6365EF;
+  width:15.75rem ;
+  border-radius:0.3rem;
+}
+.form-control::-webkit-input-placeholder { color: #6365EF; }  
+.container-fluid{
+  padding: 0 !important;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+
+
+
+/*--------------------------------------------------------------
+# Footer
+--------------------------------------------------------------*/
+/* #footer {
+  background: #4447EA;
+  padding: 0 0 30px 0;
+  color: #212529;
+  font-size: 14px;
+  background: #4447EA;
+  height: 13.5vh; 
+  margin: 0;
+
+ 
+
+} */
+.fa {
+  padding: 15px;
+  font-size: 25px;
+  width: 20px;
+  text-align: center;
+  border: 2px;
+  border-radius: 50%;
+  display: inline-block;
 }
+
+
+
+.footer-basic {
+    padding:35px 0;
+    background-color:#6365EF;
+    color:white;
+    
+   
+  }
+  
+  .footer-basic ul {
+    padding:0;
+    list-style:none;
+    text-align:center;
+    font-size:18px;
+    line-height:1.6;
+    margin-bottom:0;
+  }
+  
+  .footer-basic li {
+    padding:0 10px;
+  }
+  
+  .footer-basic ul a {
+    color:inherit;
+    text-decoration:none;
+    opacity:0.8;
+  }
+  
+  
+  
+  .footer-basic .social {
+    text-align:center;
+    padding-bottom:17px;
+  }
+  
+  .footer-basic .social > a {
+    font-size:24px;
+    width:40px;
+    height:40px;
+    line-height:40px;
+    display:inline-block;
+    text-align:center;
+    border-radius:50%;
+    background-color: white;
+    margin:0 8px;
+    color:black;
+    
+  }
+  
+  .footer-basic .social > a:hover {
+    opacity:0.9;
+  }
+  
+  .footer-basic .copyright {
+    /* margin-top:5px; */
+    text-align:center;
+    font-size:13px;
+    color:white;
+    margin-bottom:0;
+  }
+  .footer-basic p
+  {
+    font-size: 20px;
+  }
